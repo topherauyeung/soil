@@ -1,16 +1,13 @@
-# MNML
+# Soil
 
-View the project page at [http://mn-ml.cc](http://mn-ml.cc "MNML - A light-weight responsive html5 boilerplate.")
-
-MNML is a starting point for responsive HTML5 SASS projects.
-Focused on mobile readability.
+The foundational elements for starting responsive HTML5/SASS projects. Based on MNML by mrmrs - [http://mn-ml.cc](http://mn-ml.cc). Includes some other fun modules that I like to use, including [css-wizardry grids](http://csswizardry.com/csswizardry-grids/) and [fluidity](http://fluidity.sexy/).
 
 # Getting started
 
 * Create a new repo for your project on Github
 * In terminal run
 ```bash
-    git clone git@github.com:mrmrs/mnml.git yourNewRepoName
+    git clone git@github.com:topherauyeung/soil.git yourNewRepoName
     cd yourNewRepoName
     rm -rf .git
     git init
@@ -24,7 +21,7 @@ Focused on mobile readability.
 ```
 
 ## Dev environment
-To set up a convenient dev environment run this at the root of mnml
+To set up a convenient dev environment run this at the root of soil
 
 ```bash
     npm install .
@@ -50,23 +47,6 @@ Mostly a bare-bones html5 template with some basic sass partials that
 I use to start prototypes with. Also includes automated tasks for
 sass compilation, css linting, css minification, and livereload integration.
 
-## Directory structure
-```
-    mnml/
-        ├── README.md
-        ├── gulpfile.js
-        ├── package.json
-        ├── index.html                (386 bytes)
-        ├── css
-        │   └── i.css                 (2 kb minified - 1.2kb gzipped)
-        └── sass                      CSS source
-            ├── _normalize.scss
-            ├── _grid.scss
-            ├── _type.scss
-            ├── _styles.scss
-            └── i.scss
-```
-
 ## Rake tasks
 
 Start sass development - watches the sass folder and updates css/i.css with every file change
@@ -81,7 +61,7 @@ rake minify
 
 # Author
 
-[MRMRS](http://mrmrs.cc "Adam Morse - Designer Developer")
+[topher](http://dribbble.com/topher)
 
 # License
 
