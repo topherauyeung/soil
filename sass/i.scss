@@ -1,9 +1,8 @@
-@import "normalize";
+/* Compost: Helper modules that don't need editing */
+@import "compost/normalize";
+@import "compost/fluidity";
 
-/*
-   MNML by @mrmrs_
-*/
-
+/* Soil */
 @import "variables";
 @import "queries";
 @import "grid";

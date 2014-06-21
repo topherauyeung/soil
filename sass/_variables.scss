@@ -27,11 +27,10 @@ $font-size-4:24px;
 $font-size-5:16px;
 $font-size-6:12px;
 
+/* Breakpoints
+   ========================================================================== */
 
-/* Medium */
-$breakpoint-1-max-width:48em;
-
-/* Large */
-$breakpoint-2-min-width:48em;
-$breakpoint-2-max-width:64em;
-
+$bp-small:24em;
+$bp-med:48em;
+$bp-large:64em;
+$bp-xl:80em;
