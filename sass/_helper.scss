@@ -5,6 +5,7 @@
    ========================================================================== */
 
 /* Padding */
+.pan { padding: 0; }
 .paxs { padding: $spacing-xs; }
 .pas { padding: $spacing-s; }
 .pam { padding: $spacing-m; }
@@ -13,6 +14,7 @@
 .paxxl { padding: $spacing-xxl; }
 .pahuge { padding: $spacing-huge; }
 
+.ptn { padding-top: 0; }
 .ptxs { padding-top: $spacing-xs; }
 .pts { padding-top: $spacing-s; }
 .ptm { padding-top: $spacing-m; }
@@ -21,6 +23,7 @@
 .ptxxl { padding-top: $spacing-xxl; }
 .pthuge { padding-top: $spacing-huge; }
 
+.pbn { padding-bottom: 0; }
 .pbxs { padding-bottom: $spacing-xs; }
 .pbs { padding-bottom: $spacing-s; }
 .pbm { padding-bottom: $spacing-m; }
@@ -29,6 +32,7 @@
 .pbxxl { padding-bottom: $spacing-xxl; }
 .pbhuge { padding-bottom: $spacing-huge; }
 
+.pln { padding-left: 0; }
 .plxs { padding-left: $spacing-xs; }
 .pls { padding-left: $spacing-s; }
 .plm { padding-left: $spacing-m; }
@@ -37,6 +41,7 @@
 .plxxl { padding-left: $spacing-xxl; }
 .plhuge { padding-left: $spacing-huge; }
 
+.prn { padding-right: 0; }
 .prxs { padding-right: $spacing-xs; }
 .prs { padding-right: $spacing-s; }
 .prm { padding-right: $spacing-m; }
@@ -45,6 +50,7 @@
 .prxxl { padding-right: $spacing-xxl; }
 .prhuge { padding-right: $spacing-huge; }
 
+.pvn { padding-top: 0; padding-bottom: 0; }
 .pvxs { padding-top: $spacing-xs; padding-bottom: $spacing-xs; }
 .pvs { padding-top: $spacing-s; padding-bottom: $spacing-s; }
 .pvm { padding-top: $spacing-m; padding-bottom: $spacing-m; }
@@ -53,6 +59,7 @@
 .pvxxl { padding-top: $spacing-xxl; padding-bottom: $spacing-xxl; }
 .pvhuge { padding-top: $spacing-huge; padding-bottom: $spacing-huge; }
 
+.phn { padding-left: 0; padding-right: 0; }
 .phxs { padding-left: $spacing-xs; padding-right: $spacing-xs; }
 .phs { padding-left: $spacing-s; padding-right: $spacing-s; }
 .phm { padding-left: $spacing-m; padding-right: $spacing-m; }
@@ -61,6 +68,7 @@
 .phxxl { padding-left: $spacing-xxl; padding-right: $spacing-xxl; }
 
 /* Margins */
+.man { margin: 0; }
 .maxs { margin: $spacing-xs; }
 .mas { margin: $spacing-s; }
 .mam { margin: $spacing-m; }
@@ -69,6 +77,7 @@
 .maxxl { margin: $spacing-xxl; }
 .mahuge { margin: $spacing-huge; }
 
+.mtn { margin-top: 0; }
 .mtxs { margin-top: $spacing-xs; }
 .mts { margin-top: $spacing-s; }
 .mtm { margin-top: $spacing-m; }
@@ -77,6 +86,7 @@
 .mtxxl { margin-top: $spacing-xxl; }
 .mthuge { margin-top: $spacing-huge; }
 
+.mbn { margin-bottom: 0; }
 .mbxs { margin-bottom: $spacing-xs; }
 .mbs { margin-bottom: $spacing-s; }
 .mbm { margin-bottom: $spacing-m; }
@@ -85,6 +95,7 @@
 .mbxxl { margin-bottom: $spacing-xxl; }
 .mbhuge { margin-bottom: $spacing-huge; }
 
+.mln { margin-left: 0; }
 .mlxs { margin-left: $spacing-xs; }
 .mls { margin-left: $spacing-s; }
 .mlm { margin-left: $spacing-m; }
@@ -93,6 +104,7 @@
 .mlxxl { margin-left: $spacing-xxl; }
 .mlhuge { margin-left: $spacing-huge; }
 
+.mrn { margin-right: 0; }
 .mrxs { margin-right: $spacing-xs; }
 .mrs { margin-right: $spacing-s; }
 .mrm { margin-right: $spacing-m; }
@@ -101,6 +113,7 @@
 .mrxxl { margin-right: $spacing-xxl; }
 .mrhuge { margin-right: $spacing-huge; }
 
+.mvn { margin-top: 0; margin-bottom: 0; }
 .mvxs { margin-top: $spacing-xs; margin-bottom: $spacing-xs; }
 .mvs { margin-top: $spacing-s; margin-bottom: $spacing-s; }
 .mvm { margin-top: $spacing-m; margin-bottom: $spacing-m; }
@@ -109,6 +122,7 @@
 .mvxxl { margin-top: $spacing-xxl; margin-bottom: $spacing-xxl; }
 .mvhuge { margin-top: $spacing-huge; margin-bottom: $spacing-huge; }
 
+.mhn { margin-left: 0; margin-right: 0; }
 .mhxs { margin-left: $spacing-xs; margin-right: $spacing-xs; }
 .mhs { margin-left: $spacing-s; margin-right: $spacing-s; }
 .mhm { margin-left: $spacing-m; margin-right: $spacing-m; }
@@ -116,3 +130,8 @@
 .mhxl { margin-left: $spacing-xl; margin-right: $spacing-xl; }
 .mhxxl { margin-left: $spacing-xxl; margin-right: $spacing-xxl; }
 .mhhuge { margin-left: $spacing-huge; margin-right: $spacing-huge; }
+
+/* Text-Align Helpers */
+.talign--center { text-align: center; }
+.talign--left { text-align: left; }
+.talign--right { text-align: right; }
